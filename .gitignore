@@ -5,6 +5,9 @@
 # MONGODB
 /mongo
 
+# VARIABLES DE ENTORNO
+.env
+
 # Logs
 logs
 *.log
