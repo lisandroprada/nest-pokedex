@@ -1,10 +1,25 @@
-html,
-body {
-  padding: 20px;
-  background-color: grey;
+.cuenta-regresiva {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
 }
 
-h1 {
-  font-size: 20px;
-  color: whitesmoke;
+.dia,
+.hora,
+.minuto,
+.segundo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+}
+
+.dia .numero {
+  font-size: 100px;
 }
